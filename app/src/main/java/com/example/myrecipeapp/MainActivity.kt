@@ -1,4 +1,4 @@
-package com.example.myrecipeapp
+package eu.tutorials.myrecipeapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    recipeViewModel()
+                    RecipeScreen()
                 }
             }
         }
